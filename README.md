@@ -101,7 +101,7 @@ For MySQL Docker image reference:
 - List any requirements
 
 
-## 🧱 Schema Overview
+### Schema Overview
 
 The schema is designed to normalize JSON property data into a relational structure.
 
@@ -137,9 +137,9 @@ The schema is designed to normalize JSON property data into a relational structu
 
   ## How to run
 
-  **The creation tables script in the /sql folder to be used to create all the tables required**
-  **Use the python ETL Code to load the tables**
-  **Use validation_queries.sql in the /sql folder to verify the insertion**
+  - The creation tables script in the /sql folder to be used to create all the tables required
+  - Use the python ETL Code to load the tables
+  - Use validation_queries.sql in the /sql folder to verify the insertion
 
   ##  ETL Logic Documentation
 
@@ -167,10 +167,15 @@ The schema is designed to normalize JSON property data into a relational structu
 ```bash
 pip install mysql-connector-python
 
-#### Run the script 
+```
+### How to run
+
 
 ```bash
-python etl_script.py
+python etl_script.py 
+```
+
+***The etl script is available in /scripts folder***
 
 
 
